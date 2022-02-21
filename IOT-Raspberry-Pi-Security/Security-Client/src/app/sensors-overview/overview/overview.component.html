@@ -1,0 +1,50 @@
+<div style="padding: 1%;">
+
+  <!--  Select sensor   -->
+  <label for="selectSensorId"> Select sensor id to inspect: </label>
+  <select style="margin-left: 1%;" id="selectSensorId" #sensorId (change)="updateSelectedSensorId(sensorId.value)"
+          name="sensorId">
+    <option selected value="" disabled></option>
+    <option *ngFor="let sensor of sensorIds" [value]="sensor">
+      {{sensor}}
+    </option>
+  </select>
+
+  <div *ngIf="selectedSensorId">
+
+    <!--    Chart    -->
+    <div class="row">
+      <ngx-charts-bar-vertical
+        style="padding: 1%; width: 90%; position: center;"
+        [view]="[1200, 500]"
+        [scheme]="colorScheme"
+        [results]="data"
+        [gradient]="false"
+        [xAxis]="true"
+        [yAxis]="true"
+        [legend]="true"
+        [showXAxisLabel]="true"
+        [showYAxisLabel]="true"
+        [xAxisLabel]="'Date'"
+        [yAxisLabel]="'Times Triggered'"
+        (select)="onSelect($event.name)">
+      </ngx-charts-bar-vertical>
+    </div>
+
+    <!--    Images    -->
+    <div class="row">
+      <div *ngIf="isDateSelected">
+        <div *ngFor="let motion of selectedDayMotionCaptures ">
+          <mat-card style="width: 400px; height: 270px; margin: 1%;" class="example-card col">
+            <mat-card-header>
+              <mat-card-title>{{motion.measurementTime}}</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image src="{{motion.downloadUrl}}" alt="Captured security picture">
+          </mat-card>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>

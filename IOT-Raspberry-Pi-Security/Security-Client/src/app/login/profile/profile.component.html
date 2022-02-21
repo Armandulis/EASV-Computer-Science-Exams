@@ -1,0 +1,38 @@
+<section class="login-form-wrap">
+  <div *ngIf="error">
+    <h3 class="error-text">{{error}}</h3>
+  </div>
+  <h1>Admin profile</h1>
+  <div class="login-form">
+    <label>
+      Username:
+      <input disabled type="text" id="login" name="login" placeholder="login" value="{{user?.username}}">
+    </label>
+    <label>
+      User's name:
+      <input required type="text" id="name" name="name" placeholder="name" value="{{user?.name}}" #name>
+    </label>
+    <label *ngIf="sensorsToPair.length > 0">
+      Add new Sensor id:
+      <div *ngFor="let sensor of sensorsToPair">
+        <input disabled type="text" value="{{sensor}}" >
+        <button (click)="pairNewSensor( sensor )"> Pair </button>
+      </div>
+    </label>
+    <label>
+      To start pairing sensor with your profile, click a button next to the sensor
+    </label>
+    <label>
+      Currently added sensor ids:
+    <select style="margin-left: 1%;" id="selectSensorId" name="sensorId">
+      <option *ngFor="let sensor of user?.sensorIds" [value]="sensor">
+        {{sensor}}
+      </option>
+    </select>
+    </label>
+    <br>
+    <label>
+      <input type="submit" (click)="submitUpdate(name.value)" value="Update">
+    </label>
+  </div>
+</section>

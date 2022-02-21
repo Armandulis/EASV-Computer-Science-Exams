@@ -1,0 +1,19 @@
+<!-- Login Form -->
+<section class="login-form-wrap">
+  <div *ngIf="error">
+    <h3 class="error-text">{{error}}</h3>
+  </div>
+  <h1>Admin panel login</h1>
+  <div class="login-form">
+    <label>
+      <input type="email" name="email" required placeholder="Email" #username>
+    </label>
+    <label>
+      <input type="password" name="password" required placeholder="Password" #userPassword>
+    </label>
+    <label>
+      <input type="password" name="password" required placeholder="Password" #userPasswordRepeat>
+    </label>
+    <input type="submit" (click)="submitRegister(username.value, userPassword.value, userPasswordRepeat.value)" value="Register">
+  </div>
+</section>

@@ -1,0 +1,17 @@
+
+<ul>
+    <li><a routerLink="/">Imposse</a></li>
+    <li><a routerLink="/product">Shop</a></li>
+    <li><a routerLink="/story">Stories</a></li>
+    <li *ngIf="isUserLoggedIn==false" style="float: right;" ><a routerLink="/register">Register</a> </li>
+
+    <li *ngIf="isUserLoggedIn==false" style="float: right;"><a routerLink="/login">Login</a></li>
+    <li *ngIf="isUserLoggedIn==true" style="float: right;" (click)="logout()"><a routerLink="/login">Logout</a></li>
+    <li *ngIf="isUserLoggedIn==true" style="float: right;"><a routerLink="/profile">Profile</a></li>
+    <li *ngIf="isUserLoggedIn==true" style="float: right;"><a routerLink="/basket" class="glyphicon glyphicon-shopping-cart mt-1"></a></li>
+
+
+  </ul>
+
+
+
