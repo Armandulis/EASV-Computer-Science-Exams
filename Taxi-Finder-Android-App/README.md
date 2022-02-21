@@ -1,4 +1,4 @@
-# Taxi-Finder android application app made for Mobile Development course Exam
+# Taxi-Finder android application made for Mobile Development course Exam
 
 ### App overview
 
