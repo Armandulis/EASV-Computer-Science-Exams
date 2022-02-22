@@ -1,27 +1,11 @@
-# ImposseWebShop
+# Imposse webshop Client - Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
-## Development server
+- More in-depth documentation can be found in this document: https://docs.google.com/document/d/1RDeL3qAPaae55dwr8ufjZ5oBm3TUR508QtSohuu4y5o
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The client was made with Angular, development also followed angular's guidelines. Because project uses JWT token, the token is stored in the sessionStorage.
+To check if the user is still logged-in, dataSharing pattern was used.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![Login demo](https://i.imgur.com/Whpt62e.png)
+![Data sharing demo](https://i.imgur.com/iKn5YbH.png)
