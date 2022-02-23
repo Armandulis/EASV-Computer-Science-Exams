@@ -1,27 +1,9 @@
-# SecurityClientExam
+# Angular Client - Security
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+The client has a very simple design, as it was not the main focus of the project. What was importat, was that the user would see up-to-date information right away. So that the user wouldn't need to refresh the page, to see if a motion was striggered. To achieve that i used a very powerful tool called `Socket.io`. Thanks to the socket.io, i was able to do just that. The data series for new events are signaled through socket.io, then we make a request to receive all of the motions and display them in the chart. Also security is important for the frontend - the token is stored in the sessionStorage, and the token is passed to the API with every request.
 
-## Development server
+![Demo Listen for data series](https://i.imgur.com/RdagrZr.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The Devices are also paired via Socket.io, meaning that you can only pear the device for a very short time, which also improves security.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Demo Listed for devices to pair](https://i.imgur.com/04s5TmV.png)
