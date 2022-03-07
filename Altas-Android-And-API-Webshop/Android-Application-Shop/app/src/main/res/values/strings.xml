@@ -1,0 +1,124 @@
+<resources>
+    // App
+    <string name="app_name">Altas</string>
+
+    // Home Fragment
+    <string name="title_home">Home</string>
+    <string name="today_suggestions">Today\'s suggestions:</string>
+
+    // About Fragment
+    <string name="title_about">About</string>
+    <string name="about_email">Email: </string>
+    <string name="about_phone">Phone: </string>
+    <string name="about_us">About us: </string>
+    <string name="about_phone_number">+370 68 233 313</string>
+    <string name="about_email_address">Business@gmail.com</string>
+    <string name="about_us_text">Such a great company very trusted very cheap much wowSuch a great company very trusted very cheap much wowSuch a great company very trusted very cheap much wowSuch a great company very trusted very cheap much wowSuch a great company very trusted very cheap much wowSuch a great company very trusted very cheap much wowSuch a great company very trusted very cheap much wowSuch a great company very trusted very cheap much wow</string>
+
+    // About Edit Dialog Fragment
+    <string name="update_contact_phone">Update contact phone:</string>
+    <string name="update_contact_email">Update contact email:</string>
+    <string name="update_us_text">Update about us text:</string>
+    <string name="update_email_success">Email updated successfully</string>
+    <string name="update_phone_success">Phone updated successfully</string>
+    <string name="update_about_us_success">About us updated successfully</string>
+
+    // Shop Fragment
+    <string name="title_shop">Shop</string>
+
+    // Shop list item
+    <string name="price">Price:</string>
+    <string name="brand">Brand:</string>
+    <string name="amount">Amount:</string>
+
+    // General
+    <string name="no_current_information">Currently there is no information</string>
+    <string name="company_logo">Company\'s logo</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    // Basket
+    <string name="product_was_added">was added to basket</string>
+    <string name="product_was_removed">was removed from basket</string>
+    <string name="basket_empty">Your basket is currently empty!</string>
+
+    // Actions
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="create">Create</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="loading">Loading..</string>
+
+    // Profile
+    <string name="clear_order_item">Confirm received</string>
+    <string name="delivered">Delivered</string>
+    <string name="confirmed_delivery">Delivery confirmed</string>
+    <string name="remove_product">Remove product</string>
+    <string name="user">User</string>
+    <string name="purchase_status">Your purchase status and history:</string>
+    <string name="confirm_delivery_message">was confirmed delivered</string>
+    <string name="confirm_removed_product">was removed from purchase history</string>
+    <string name="no_purchases">Your purchase history is empty</string>
+
+    // Invalid Messages
+    <string name="incorrect_email">Please provide a valid email</string>
+    <string name="incorrect_password">Please provide a valid password</string>
+
+    // Login
+    <string name="login_title">Login</string>
+    <string name="do_not_have_account_text">Don\'t have an account?</string>
+    <string name="do_not_have_click_here_text">Register by clicking here</string>
+    <string name="login_text">Login to see your saved basket!</string>
+    <string name="login_email">Login email</string>
+    <string name="login_password">Login password</string>
+    <string name="login_failed_login">Login failed, please try again</string>
+    <string name="login_show_puchases">Show purchases</string>
+
+    // Register
+    <string name="register_title">Register</string>
+    <string name="register_text">Register to save items to your basket!</string>
+    <string name="register_failed_register">Registration failed, try again</string>
+    <string name="register_passwords_do_not_match">Passwords do not match</string>
+    <string name="register_repeat_password">Repeat password</string>
+
+    // Profile
+    <string name="profile_title">Profile</string>
+
+    // Hints
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_about_us">About us</string>
+    <string name="hint_phone">Phone</string>
+    <string name="add_product">Add new product</string>
+    <string name="title_details">Details</string>
+    <string name="title_create">Create</string>
+    <string name="type">Type:</string>
+    <string name="name">Name:</string>
+    <string name="description">Description:</string>
+    <string name="product_image">Product\'s image</string>
+    <string name="add_picture">Add picture</string>
+    <string name="search_suggestions">Title, brand, type</string>
+    <string name="no_search_was_provided">Please provide a valid search argument</string>
+    <string name="title_basket">Basket</string>
+    <string name="proceed_to_checkout">Proceed To Checkout</string>
+    <string name="proceed">Proceed</string>
+    <string name="estimate_delivery_time">Estimated delivery time:</string>
+    <string name="total_amount_of_items">Total amount of items:</string>
+    <string name="total_price">Total price:</string>
+    <string name="order_types">Order by:</string>
+    <string name="reset">Reset</string>
+
+
+    // ids
+    <item name="item_click_support" type="id" />
+
+    <string-array name="order_options">
+        <item>Price</item>
+        <item>Brand</item>
+        <item>Type</item>
+    </string-array>
+
+</resources>

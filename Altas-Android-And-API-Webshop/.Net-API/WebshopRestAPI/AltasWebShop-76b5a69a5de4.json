@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "altaswebshop",
+  "private_key_id": "76b5a69a5de4bd05b8aaef0140979b139e5e5d74",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCg2bnvzsKukr9j\nU9ncw9FxP4OepcW+39YpAZ3V6BY4ZaZC7VJttm0FuG2cZRhrmwjLfk8Xws/GJXzd\nGiX0ZdF7VqQFr70ntT2PG+zYTj7/bd6SBu780S5qnt96hcDOwJqzHUohTlW2pEq9\nGxNJ9v2qdMlw7GCytavVRjKwxWX4J0QK14hoWe38Gy4JHcRFTJEjPXlaoKYMEYA3\nRVPF9Rh+Tsm5MDRI6vofHljNg8Sy42SQQugppyv8V+Eo2R8nDGTwVrV9SpFrp3fZ\nBjdeEkKAXKWFSytn52KklmVgL7Difth0J7FV4HgIIInKnvbM62qbPCIYBJO+sQ4s\nzc7dlE1PAgMBAAECggEATMDoTUqrslLbGcIS1RnpsLD+lO8Eh7rWvhWD4+UN6VZz\n+j61lR22M0MYpsbE2uANV9ELW8q9i48q4HSQROlrBwBGX2JHEBIXcFkCcQsRW6Bp\nUuQVGTWWARGTkSsO4HmeuDaTP4ZaNz95XHh1gVdnHvYAg65/y/cNqkUHfjuLl1gf\nnqTcwYY1bkijUJrHq1pr6nc3aTHRQzY1KGjjbX907v9Zx7X1MUKBgmA3Ook8Yz5O\nR/j0JoiAyqoQDKWWyteLSBxtcvpCMXWQ1ZIMkEuWldfNzwWPRHZ6BgWwUaM5LhUo\nZCY6kLSdpwqoSFMpg0U08La2XI7tsl+pOle0W8II3QKBgQDNQxnI/1aPJwoYNg4c\nI+pIs/COdBI4SWaBzslpOw237JW5/3pWPpVT2VfqZ7gL06nktmbsnq1BX94ZxpB6\nXMqr2Ms6IlrFQNtN7rWEMgxu6g3Egl94AsdKW3v0/FdlTnUHlrqdze4D3JMOT5bs\nceL1ToXxsOZJcRqfRGDiStYMLQKBgQDInEb31oTc24I2W6+99BbmJBoP+ekZMZC7\n27ULVDFjbCaC8LX+ucga/bPq4baYLUT0pvXUR0BWv5IbL/3FHhiYUlw9RccsLiOw\n9ub+5hiGSUtM5cRX/BRKZZXI03EPzg8Gy+1jPVyrb/UTKknHwhHbtFN44mxa3ok8\nhK+/70eg6wKBgBsd7EAji3np/Glqar7I9+CW9Qa8ytNozwQDH5SpWoyb0sP5vl26\nctva8MRk42mckutGNZ6478adNahOFTQ1IglF4MNTWo6InPBUwuIuAnp8rUjyuE4Q\nf+eQ4nVhCOK3VLql7Q1/8RvNfhf758Jg4UzrDML7TdESAiRcUjhTDqgZAoGAdT5Q\ng7xN/j4UBezj8yJa17o1uSyXvO+o5QHs92gHTVIB1/kShILTnmKz6gxsiNe8Ozfw\n6FWUFp7zpwwPRkrmmO9ZlT3Yv8tfdKd4LXUQ1Dq11YVbkQh0W16vgaWBqHkHczNv\n09Yi+Nb/5mmKoUKc6UikmDvMk/cHQeVSSdxwgm0CgYAYnM3ch9tpKxTRdX43olSD\n0bjErCAh61njYmJzFfMYwHLENhBjIAxWnCZpmTO0NBs1mUGmEi8sL3a4W5R/Ovir\nL+ts6MOOZdBEixGlQsz5uPWCni+wxboVXsPgRuNKEjv8ik7n8DDlraZqjEmNHgpS\nPRa2z6glJ0Go0FojrsxZZg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "altaswebshop@altaswebshop.iam.gserviceaccount.com",
+  "client_id": "108179238169736104829",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/altaswebshop%40altaswebshop.iam.gserviceaccount.com"
+}

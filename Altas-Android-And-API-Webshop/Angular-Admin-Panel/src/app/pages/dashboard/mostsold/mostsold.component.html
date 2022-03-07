@@ -1,0 +1,23 @@
+
+<base-card>
+  <base-card-title>
+    <h2 class="mdl-card__title-text">Popular Products</h2>
+  </base-card-title>
+  <base-card-body class="no-padding">
+    <table class="mdl-data-table mdl-js-data-table borderless-table">
+      <thead>
+      <tr>
+        <th class="mdl-data-table__cell--non-numeric" *ngFor="let item of tableHeader">{{ item }}</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let item of data">
+        <td class="mdl-list__product-secondary-content product"> <span> {{ item.Product }} </span> </td>
+        <td class="mdl-list__product-secondary-content units"> <span> {{ item.Units }} </span> </td>
+      </tr>
+      </tbody>
+    </table>
+  </base-card-body>
+</base-card>
+
+

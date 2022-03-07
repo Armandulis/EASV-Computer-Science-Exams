@@ -1,0 +1,28 @@
+@import '~theme/helpers';
+
+.mostsold {
+  .mdl-card,
+  .mdl-card__supporting-text {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    th {
+      font-size: medium;
+    }
+    td {
+      font-size: 100%;
+      text-align: left;
+    }
+  }
+
+  .no-padding {
+    padding: 0;
+    width: 100%;
+  }
+
+  .label__availability {
+    margin-right: 2px;
+  }
+}

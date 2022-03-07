@@ -1,0 +1,62 @@
+<base-card>
+  <base-card-title>
+    <h2>Product</h2>
+  </base-card-title>
+  <base-card-body>
+    <form [formGroup]="updateProductForm" (ngSubmit)="save()">
+      <div class="form__article">
+        <h3>Product information</h3>
+
+
+        <div class="mdl-grid">
+
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" formControlName="id" id="id"/>
+            <label class="mdl-textfield__label" for="id">ID</label>
+          </div>
+
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" formControlName="title" id="title"/>
+            <label class="mdl-textfield__label" for="title" >Title</label>
+          </div>
+
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="description" formControlName="description"/>
+            <label class="mdl-textfield__label" for="description">Description</label>
+          </div>
+        </div>
+
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="type" formControlName="type"/>
+            <label class="mdl-textfield__label" for="type">Type</label>
+          </div>
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="brand" formControlName="brand"/>
+            <label class="mdl-textfield__label" for="brand">Brand</label>
+          </div>
+        </div>
+
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="price" formControlName="price"/>
+            <label class="mdl-textfield__label" for="price">Price </label>
+          </div>
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="picture" formControlName="pictureUrl"/>
+            <label class="mdl-textfield__label" for="picture">picture</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form__action">
+        <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+          Update
+        </button>
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" (click)="delete()">
+        Delete
+      </button>
+      </div>
+    </form>
+  </base-card-body>
+</base-card>

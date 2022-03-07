@@ -1,0 +1,7 @@
+<header>{{ title }}</header>
+<nav class="mdl-navigation">
+  <base-menu-item *ngFor="let item of menu" [data]="item"></base-menu-item>
+
+  <div class="mdl-layout-spacer"></div>
+  <base-menu-item [data]="{ }"></base-menu-item>
+</nav>

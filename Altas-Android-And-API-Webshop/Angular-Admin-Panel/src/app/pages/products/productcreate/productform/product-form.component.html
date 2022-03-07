@@ -1,0 +1,52 @@
+<base-card>
+  <base-card-title>
+    <h2>Product</h2>
+  </base-card-title>
+  <base-card-body>
+    <form [formGroup]="createProductForm">
+      <div class="form__article">
+        <h3>Product information</h3>
+
+
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" formControlName="title" id="title" required/>
+            <label class="mdl-textfield__label" for="title">Title</label>
+          </div>
+
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="description" formControlName="description" required/>
+            <label class="mdl-textfield__label" for="description">Description</label>
+          </div>
+        </div>
+
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="type" formControlName="type" required/>
+            <label class="mdl-textfield__label" for="type">Type</label>
+          </div>
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="brand" formControlName="brand" required/>
+            <label class="mdl-textfield__label" for="brand">Brand</label>
+          </div>
+        </div>
+
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="price" formControlName="price" required/>
+            <label class="mdl-textfield__label" for="price">Price </label>
+          </div>
+          <div class="mdl-cell mdl-cell--6-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-button" type="file" name="image" (change)="picturetobase64($event)"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="form__action">
+        <button (click)="save()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+          Create
+        </button>
+      </div>
+    </form>
+  </base-card-body>
+</base-card>

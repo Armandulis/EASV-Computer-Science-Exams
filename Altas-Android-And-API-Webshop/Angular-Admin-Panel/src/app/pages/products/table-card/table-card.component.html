@@ -1,0 +1,27 @@
+<base-card>
+  <base-card-title>
+    <h2 class="mdl-card__title-text">Products</h2>
+  </base-card-title>
+<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric" *ngFor="let product of tableHeader">{{ product }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <td class="mdl-data-table__cell--non-numeric">{{ product.id}}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{ product.title }}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{ product.description }}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{ product.brand }}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{ product.price }}</td>
+      <td class="mdl-data-table__cell--non-numeric">
+        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" routerLink="/app/productupdate/{{product.id}}">View</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+  <base-card-title>
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" routerLink="/app/productcreate">Create Product</button>
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" (click)="loadMore()">Load More</button>
+  </base-card-title>

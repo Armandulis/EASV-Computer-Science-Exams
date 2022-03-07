@@ -1,0 +1,24 @@
+<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric" *ngFor="let item of tableHeader">{{ item }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of productstatuses ">
+      <td class="mdl-data-table__cell--non-numeric">{{ item.id }}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{ item.userId }}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{ item.product.title }}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{ item.purchaseDate }}</td>
+      <td class="mdl-data-table__cell--non-numeric">
+        <material-angular-select [data]="status"
+                                 [currentValue]="item.status"
+                                 (selectedValue)="statusChanges(item, $event)"
+        ></material-angular-select>
+      </td>
+    </tr>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" (click)="loadmore()">
+      Load more
+    </button>
+  </tbody>
+</table>

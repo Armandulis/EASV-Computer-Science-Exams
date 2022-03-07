@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Firebase.Auth.Rest" Version="1.0.5" />
+    <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
+    <PackageReference Include="Google.Cloud.Firestore" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebshopAPI.Core.Entity\WebshopAPI.Core.Entity.csproj" />
+    <ProjectReference Include="..\WebshopAPI.Core\WebshopAPI.Core.csproj" />
+  </ItemGroup>
+
+</Project>
