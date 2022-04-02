@@ -1,5 +1,5 @@
 # EASV Computer Science Exams (Bachelor's degree)
-In this project you will find a various of different exams projects i had to take in my studies at [EASV in Esbjerg](https://www.easv.dk/en/).
+In this repository you will find a various of different exams projects i had to take in my studies at [EASV in Esbjerg](https://www.easv.dk/en/).
 
 Projects are made for various of different topics, technologies, languages. Made in coorporation with various of different people:
 - Angular - Typescript
