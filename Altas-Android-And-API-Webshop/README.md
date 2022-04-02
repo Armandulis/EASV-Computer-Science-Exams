@@ -4,9 +4,13 @@ Altas, a car repair company, does not have an option where customers could look 
 
 ### Solution 
 Create an android phone application where users would be able to buy, order and search for items or services. Users also should be able to contact the shop and find other small information about “Altas”.. With this application, customers would be able to pick and decide what they want from the shop before they even get there, this will also bring an option to do shopping remotely. Admin’s panel would be created so that administrators would be able to add and modify items and services. Finally, both of these applications would have a backend that could also fit new future applications.
+
+
 - [Admin paniel](https://github.com/Armandulis/EASV-Computer-Science-Exams/tree/main/Altas-Android-And-API-Webshop/Angular-Admin-Panel) (Angular client)
 - [API](https://github.com/Armandulis/EASV-Computer-Science-Exams/tree/main/Altas-Android-And-API-Webshop/.Net-API) (C# .net)
 - [Android application](https://github.com/Armandulis/EASV-Computer-Science-Exams/tree/main/Altas-Android-And-API-Webshop/Android-Application-Shop)
+
+![Architecture](https://i.imgur.com/miDRreA.png)
 
 ### Technologies
  - Database: Firebase
