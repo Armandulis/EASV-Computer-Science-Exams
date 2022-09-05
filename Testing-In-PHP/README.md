@@ -1,5 +1,5 @@
 # Testing In PHP Exam Project
-The project PHP project created with Symfony. MVC architecture, used PHPUnit to write tests for controller. A simple 'caclulcator' logic covered with indepth unit tests.
+The project is written in PHP and was created with Symfony, MVC architecture, used PHPUnit to write tests for controller. A simple 'caclulcator' logic covered with indepth unit tests.
 
 To sum up everything: Managed to reach 95% code coverage. Used symfony and PHPUnit frameworks. Tests include mocking controllers and objects, data-driven tests (data providers), edge cases, static function situations, and code-coverage. Documentation was made with Given/When/Then style in mind. Project only covers one controller, so all of the tests can be found in [CalculatorControllerTest.php](https://github.com/Armandulis/Testing-In-PHP-Exam-Project/blob/main/tests/Contorllers/CalculatorControllerTest.php)
 
